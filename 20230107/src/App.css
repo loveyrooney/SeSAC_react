@@ -24,6 +24,10 @@
   color: white;
 }
 
+.modal {
+  padding: 20px; background-color: aquamarine;
+}
+
 .App-link {
   color: #61dafb;
 }

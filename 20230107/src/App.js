@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import CallChange from './components/CallChange';
+import CallCObj from './components/CallCObj';
+import CallCustom from './components/CallCustom';
+import ClassProps from './components/ClassProps';
+import ExamMap from './components/ExamMap';
+import List from './components/List';
+import MainHeader from './components/MainHeader';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CallChange />
+      <hr />
+      <CallCustom />
+      <CallCObj />
+      <ExamMap />
+      <List />
+      <MainHeader text="go naver" href="http://naver.com" userID="rooney" />
+      <ClassProps text="go naver" href="http://naver.com" userID="rooney" />
     </div>
   );
 }
