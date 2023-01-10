@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.test {background-color: #f9d7aa; color:#c64d14; font-size: 3rem; margin:10px 200px 10px 200px;}
+
+.rainbow {position:relative; vertical-align: top; margin: 0 3% 0 3%; height: 700px;}
+.red {display: inline-block; vertical-align: top; width: 10%; height: 100px; background-color: crimson;}
+.orange {display: inline-block; vertical-align: top; width: 10%; height: 200px; background-color: rgb(255, 115, 39);}
+.yellow {display: inline-block; vertical-align: top; width: 10%; height: 300px; background-color: rgb(255, 226, 7);}
+.green {display: inline-block; vertical-align: top; width: 10%; height: 400px; background-color: rgb(13, 124, 52);}
+.blue {display: inline-block; vertical-align: top; width: 10%; height: 500px; background-color: rgb(39, 61, 255);}
+.navy {display: inline-block; vertical-align: top; width: 10%; height: 600px; background-color: rgb(10, 26, 104);}
+.purple {display: inline-block; vertical-align: top; width: 10%; height: 700px; background-color: rgb(123, 20, 220);}
+
+.book {background-color: #fcffbf;}
+.book > h2 {color:#ff6117}
+.book > h4 {margin: 10 0 0 30;}
