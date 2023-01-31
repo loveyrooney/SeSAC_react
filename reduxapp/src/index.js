@@ -33,3 +33,6 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+//provider를 여기서 적용하면 모든 리액트 컴포넌트에 리덕스적용한단거고
+//특정 범위 내에서 리덕스를 적용하고 싶을 때는 App.js 안에서 그 범위에다 Provider 생성
